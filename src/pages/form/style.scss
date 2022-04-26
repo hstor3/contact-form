@@ -1,12 +1,23 @@
 @import '../../variables.scss';
 
+.form {
+  background-color: #dcdcdc6e;
+  padding-top: 3%;
+  padding-left: 10%;
+}
+
 .header {
     font-size: 38px;
     font-weight: bold;
+    margin-bottom: 4%;
 }
 
 label, input, textarea, .submit-btn {
     font-size: $font-size;
+}
+
+div > input, div > textarea {
+    display: block;
 }
 
 input, textarea {
@@ -14,20 +25,34 @@ input, textarea {
     border: 1px solid;
     border-color: $blue;
     border-radius: 3px;
-    padding-top: 10px;
-    margin: 10px;
+    font-size: $font-size;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 80%;
+    resize: none;
 }
 
 textarea {
-    // height: 36px;
+    height: 150px;
+    font-family: Arial;
+    white-space: pre-line;
+}
+
+input {
+    height: $input-height;
 }
 
 .submit-btn {
-    // width: 36px;
+    margin-top: 3%;
     background-color: $blue;
     color: $white;
+    width: 81%;
+    height: $input-height;
+    border-radius: 3px;
+    border: 1px solid;
 }
 
 .submit-btn:hover {
     background-color: $btnHover;
+    cursor: pointer;
 }
