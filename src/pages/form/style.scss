@@ -1,0 +1,33 @@
+@import '../../variables.scss';
+
+.header {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+label, input, textarea, .submit-btn {
+    font-size: $font-size;
+}
+
+input, textarea {
+    background-color: $white;
+    border: 1px solid;
+    border-color: $blue;
+    border-radius: 3px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+textarea {
+    // height: 36px;
+}
+
+.submit-btn {
+    // width: 36px;
+    background-color: $blue;
+    color: $white;
+}
+
+.submit-btn:hover {
+    background-color: $btnHover;
+}
