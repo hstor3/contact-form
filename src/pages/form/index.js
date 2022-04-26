@@ -6,7 +6,7 @@ import Message from '../../components/message';
 
 export default function Form() {
     return (
-        <div>
+        <div className="form">
             <h1 className="header">Contact Us Form</h1>
             <Names />
             <Email />
