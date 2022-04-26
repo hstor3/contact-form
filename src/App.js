@@ -1,4 +1,5 @@
 import Form from './pages/form';
+import './App.scss';
 
 function App() {
   return (
