@@ -4,12 +4,12 @@ export default function Names() {
     return (
         <div>
             <div>
-                <label>First Name</label>
-                <input />
+                <label for='first'>First Name</label>
+                <input id="first" name="first" />
             </div>
             <div>
-                <label>Last Name</label>
-                <input />
+                <label for='last'>Last Name</label>
+                <input id="last" name="last" />
             </div>
         </div>
     )
