@@ -16,7 +16,6 @@
 }
 
 label, input, textarea, .submit-btn {
-    font-size: $font-size;
     margin: 9%;
 }
 
@@ -37,6 +36,15 @@ input, textarea {
 
 input {
     height: $input-height;
+}
+
+.emailValid {
+    display: none;
+}
+
+.emailError {
+    color: red;
+    margin-left: 9%;
 }
 
 .submit-btn {
