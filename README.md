@@ -6,6 +6,8 @@
 
 This form allows users to submit their name, email and a message. When running locally, after filling out the input fields and clicking submit, a text folder will be created in the root directory of the project.
 
+*You must enter a valid input in order for the text folder to appear*
+
 ## Built With
 
 ![https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
